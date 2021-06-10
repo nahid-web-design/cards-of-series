@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        body{
+            background-color: rgb(241, 218, 11);
+        }
+        .card-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+        }
+        .card1{
+            border: 2px solid black;
+            height:300px ;
+            width: 400px;
+            background-color: black;
+            box-shadow: 5px 5px 5px red;
+            margin: 20px;
+        }
+        .img1{
+              height: 300px;
+              width: 200px;  
+              float: left;
+        }
+       .card1-description{
+            height: 300px;
+            width: 200px;
+            box-sizing:border-box ;
+            float: left;
+        } 
+       .header1{
+        color: white;
+        font-size: 2rem;
+        margin: 20px;
+        text-align: center;
+        border: 3px solid greenyellow;
+        border-radius: 30%;
+        }
+        .header1 a{
+            text-decoration: none;
+            color: lawngreen;
+        }
+        .header1 a:hover{
+           color: rgb(235, 15, 206);
+           text-decoration: underline; 
+        }
+       .description1{
+        color: white;
+        text-align: justify;
+        margin: 10px;
+       }
+       .card1:hover{
+          box-shadow: 15px 15px 15px rgb(7, 43, 248); 
+       }
+
+       .card2{
+            border: 2px solid black;
+            height:300px ;
+            width: 400px;
+            background-color: black;
+            box-shadow: 5px 5px 5px red;
+            margin: 20px;
+        }
+        .img2{
+              height: 170px;
+              width: 400px;  
+              
+        }
+       .card2-description{
+            height: 150px;
+            width: 400px;
+            box-sizing:border-box ;
+            
+        } 
+       .header2{
+        color: white;
+        font-size: 2rem;
+        margin: 5px;
+        text-align: center;
+        border: 3px solid greenyellow;
+        border-radius: 30%;
+        }
+        .header2 a{
+            text-decoration: none;
+            color: lawngreen;
+        }
+        .header2 a:hover{
+           color: rgb(235, 15, 206);
+           text-decoration: underline; 
+        }
+       .description2{
+        color: white;
+        text-align: justify;
+        margin: 3px;
+        font-size: 13px;
+       }
+       .card2:hover{
+          box-shadow: 15px 15px 15px rgb(7, 43, 248); 
+       }
+
+    </style>
+</head>
+<body>
+    <div class="card-container">
+
+        <div class="card1">
+
+            <img class="img1" src="https://m.media-amazon.com/images/M/MV5BZmQ5NGFiNWEtMmMyMC00MDdiLTg4YjktOGY5Yzc2MDUxMTE1XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg">
+            <div class="card1-description">
+                <div class="header1">
+                    <a href="https://www.google.com/search?q=naruto&bih=657&biw=1366&hl=en&sxsrf=ALeKk00Vk9oT1c7bIYlNRQimrESMrmE-eA%3A1623308323818&ei=I7jBYPyoMYTgz7sP_MGtsAY&oq=nar&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIHCC4QsQMQQzIHCC4QsQMQQzIFCAAQkQIyBwguELEDEEMyBwgAELEDEEMyBAgAEEMyBAgAEEMyBAgAEEMyBwguELEDEEM6BAguEEM6BQgAELEDOgIIADoICAAQsQMQgwE6CwguELEDEMcBEK8BOgIILjoFCC4QkQI6CgguELEDEIMBEENQwekGWKjrBmDugAdoAHACeACAAbECiAGnCJIBBTItMy4xmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz"> Naruto</a>
+                </div>
+            <div class="description1">
+                Naruto (Japanese: NARUTO ナルト ) is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage, the leader of his village.
+            </div>
+            </div>
+        
+
+        </div>
+
+        <div class="card1">
+
+            <img class="img1" src="https://upload.wikimedia.org/wikipedia/en/e/e0/Game_of_Thrones_Season_8.png">
+            <div class="card1-description">
+                <div class="header1">
+                    <a href="https://www.google.com/search?q=game+of+thrones&bih=657&biw=1366&hl=en&sxsrf=ALeKk02vzFkVqctmkAJ-KGWM25Mken947g%3A1623308440653&ei=mLjBYJeaJ6_7z7sPnoqS0Ag&gs_ssp=eJzj4tLP1TcwNTJJMjE0YPTiT0_MTVXIT1MoySjKz0stBgByHwiu&oq=game+&gs_lcp=Cgdnd3Mtd2l6EAMYADIHCC4QJxCTAjIECAAQQzIECC4QQzIHCAAQsQMQQzIKCAAQhwIQsQMQFDIICAAQsQMQgwEyBQgAELEDMgIIADIFCAAQsQMyCggAELEDEIMBEAo6BwgjELADECc6BwgAEEcQsAM6CgguELADEMgDEEM6CgguELEDEEMQkwI6BwgjEOoCECc6BwguEOoCECc6BAgjECc6CggAELEDEIMBEEM6CgguEMcBEKMCEEM6BQguELEDOggILhCxAxCDAToECAAQCkoFCDgSATFQ8vU_WLOEQGCAjUBoAnACeASAAd4BiAHxDJIBBjAuMTAuMZgBAKABAaoBB2d3cy13aXqwAQrIAQ7AAQE&sclient=gws-wiz"> Game of Thrones</a>
+                </div>
+            <div class="description1">
+                Game of Thrones is an series that tells the story of a medieval country's civil war. When the story begins, a decade-long summer is ending, and winter looms as characters battle to claim the "Iron Throne," the regime that rules all but the northern tip of Westeros.
+            </div>
+            </div>
+        
+
+        </div>
+
+        <div class="card2">
+
+            <img class="img2" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202001/Breaking_Bad.jpeg?Ifrqi.v01Y0KfAlAyY172HCu8HZTJJvy&size=770:433">
+            <div class="card2-description">
+                <div class="header2">
+                    <a href="https://www.google.com/search?q=breaking+bad&bih=657&biw=1366&hl=en&sxsrf=ALeKk03-kNes6QQ1n0hiwJdGGNHZWxcmZA%3A1623309493244&ei=tbzBYPqPDv7nz7sPq--GkAE&gs_ssp=eJzj4tLP1TcwTjE2qbAwYPTiSSpKTczOzEtXSEpMAQBhJQfP&oq=br&gs_lcp=Cgdnd3Mtd2l6EAMYADIHCC4QJxCTAjIECAAQQzIECC4QQzIECAAQQzIECAAQQzIECC4QQzIECC4QQzIECC4QQzIECC4QQzIECC4QQzoKCC4QsAMQJxCTAjoHCAAQRxCwAzoKCC4QsAMQyAMQQzoECCMQJzoKCC4Q6gIQJxCTAjoHCCMQ6gIQJzoHCC4Q6gIQJzoICAAQsQMQgwE6AgguOgsILhCxAxDHARCvAToHCC4QsQMQQ0oFCDgSATFQ2ZcBWOSoAWDvsQFoA3ACeACAAagCiAGxB5IBBTAuNC4xmAEAoAEBqgEHZ3dzLXdperABCsgBD8ABAQ&sclient=gws-wiz">Breaking Bads</a>
+                </div>
+            <div class="description2">
+                Breaking Bad follows Walter White, a meek high school chemistry teacher who transforms into a ruthless player in the local methamphetamine drug trade, driven by a desire to financially provide for his family after being diagnosed with terminal lung cancer.
+            </div>
+            </div>
+        
+
+        </div>
+
+
+        <div class="card1">
+
+            <img class="img1" src="https://assets1.ignimgs.com/2017/10/23/stranger-things-ver26-xlg-1508774232839.jpg">
+            <div class="card1-description">
+                <div class="header1">
+                    <a href="https://www.google.com/search?q=stranger+things&bih=657&biw=1366&hl=en&sxsrf=ALeKk02NdtRJGfjksUuNlvzB61EAo9cTdg%3A1623309517922&ei=zbzBYIDhN5L7z7sP1JS36Ao&gs_ssp=eJzj4tbP1TcwNDbMyTOvNGD04i8uKUrMS08tUijJyMxLLwYAiQMJzQ&oq=stra&gs_lcp=Cgdnd3Mtd2l6EAEYADIHCC4QJxCTAjIECAAQQzIHCAAQsQMQQzIECAAQQzIHCAAQsQMQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzoHCAAQRxCwAzoHCAAQsAMQQzoNCC4QsAMQyAMQQxCTAjoKCC4QsAMQyAMQQzoKCC4Q6gIQJxCTAjoHCC4Q6gIQJzoHCCMQ6gIQJzoHCC4QQxCTAjoECC4QQzoFCAAQsQNKBQg4EgExUOrgBliQ7AZgntUHaAJwAngAgAGRAogB1waSAQUwLjQuMZgBAKABAaoBB2d3cy13aXqwAQrIAQ_AAQE&sclient=gws-wiz">Stranger Things</a>
+                </div>
+            <div class="description1">
+                When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.
+            </div>
+            </div>
+        
+
+        </div>
+
+        <div class="card1">
+
+            <img class="img1" src="https://timesofindia.indiatimes.com/thumb/78802407.cms?width=219&height=317&quality=80&imgsize=89911">
+            <div class="card1-description">
+                <div class="header1">
+                    <a href="https://www.google.com/search?q=mirzapur&source=lmns&bih=657&biw=1366&hl=en&sa=X&ved=2ahUKEwjy35aH2ozxAhVI3XMBHVBzBO0Q_AUoAHoECAEQAA"> Mirzapur</a>
+                </div>
+            <div class="description1">
+                The iron-fisted Akhandanand Tripathi is a millionaire carpet exporter and the mafia don of Mirzapur. His son, Munna, is an unworthy, power-hungry heir who will stop at nothing to inherit his father's legacy.
+            </div>
+            </div>
+        
+
+        </div>
+
+
+        <div class="card1">
+            <img class="img1" src="https://m.media-amazon.com/images/M/MV5BODI2NjdlYWItMTE1ZC00YzI2LTlhZGQtNzE3NzA4MWM0ODYzXkEyXkFqcGdeQXVyNjU1OTg4OTM@._V1_FMjpg_UX1000_.jpg">
+            <div class="card1-description">
+                <div class="header1">
+                <a href="https://www.google.com/search?q=demon+slayer&source=lmns&bih=657&biw=1366&hl=en&sa=X&ved=2ahUKEwie7oTu34zxAhXzl-YKHbrwAPsQ_AUoAHoECAEQAA"> Demon Slayer</a>
+                </div>
+                <div class="description1">
+                    The iron-fisted Akhandanand Tripathi is a millionaire carpet exporter and the mafia don of Mirzapur. His son, Munna, is an unworthy, power-hungry heir who will stop at nothing to inherit his father's legacy.
+                </div>
+            </div>
+    
+
+        </div>
+
+        <div class="card1">
+            <img class="img1" src="https://m.media-amazon.com/images/M/MV5BYjM0MDRkYzctMTNhMS00ODYwLTgwMWItZDYxNDlhOGY1YjRlXkEyXkFqcGdeQXVyMzExMzk5MTQ@._V1_UY1200_CR109,0,630,1200_AL_.jpg">
+            <div class="card1-description">
+                <div class="header1">
+                <a href="https://www.google.com/search?q=boruto&source=lmns&bih=657&biw=1366&hl=en&sa=X&ved=2ahUKEwi6npL14YzxAhW-G7cAHWaZDUkQ_AUoAHoECAEQAA"> Boruto</a>
+                </div>
+                <div class="description1">
+                    The iron-fisted Akhandanand Tripathi is a millionaire carpet exporter and the mafia don of Mirzapur. His son, Munna, is an unworthy, power-hungry heir who will stop at nothing to inherit his father's legacy.
+                </div>
+            </div>
+    
+
+        </div>
+
+
+    </div>
+</body>
+</html>
